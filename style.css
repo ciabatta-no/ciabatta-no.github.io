@@ -7,7 +7,7 @@ body{
 }
 
 #main{
-  margin: 320px 192px 0;
+  margin: 240px 192px 0;
 }
 
 h1{
@@ -20,6 +20,10 @@ h1{
   font-weight: 700;
 }
 
+b{
+  font-weight: 700;
+}
+
 ul.taglines{
   display: block;
   list-style: none;
@@ -28,7 +32,7 @@ ul.taglines{
 
   font-size: 20px;
   line-height: 24px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 ul.taglines li{
