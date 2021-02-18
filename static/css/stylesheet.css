@@ -16,7 +16,7 @@ body {
 }
 
 ul.taglines {
-  margin: 80px 0 0 0;
+  margin: 96px 0 0 0;
   padding: 0;
   list-style: none;
   float: left;
@@ -123,7 +123,7 @@ a:focus {
   }
 
   ul.taglines {
-    margin: 60px 0 0 0;
+    margin: 72px 0 0 0;
   }
 }
 @media screen and (max-width: 560px) {
@@ -133,7 +133,7 @@ a:focus {
   }
 
   ul.taglines {
-    margin: 40px 0 0 0;
+    margin: 48px 0 0 0;
   }
 }
 @media screen and (max-height: 360px) {
@@ -143,7 +143,7 @@ a:focus {
   }
 
   ul.taglines {
-    margin: 40px 0 0 0;
+    margin: 48px 0 0 0;
   }
 }
 @media screen and (max-width: 768px) {
