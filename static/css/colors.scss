@@ -1,0 +1,62 @@
+//colors
+$color-solid-black-100: rgba(0,0,0,1);
+$color-solid-black-95: rgba(13,13,13,1);
+$color-solid-black-90: rgba(26,26,26,1);
+$color-solid-black-85: rgba(38,38,38,1);
+$color-solid-black-80: rgba(51,51,51,1);
+$color-solid-black-75: rgba(64,64,64,1);
+$color-solid-black-70: rgba(77,77,77,1);
+$color-solid-black-65: rgba(89,89,89,1);
+$color-solid-black-60: rgba(102,102,102,1);
+$color-solid-black-55: rgba(115,115,115,1);
+$color-solid-black-50: rgba(128,128,128,1);
+
+$color-solid-white-100: rgba(255,255,255,1);
+$color-solid-white-95: rgba(242,242,242,1);
+$color-solid-white-90: rgba(229,229,229,1);
+$color-solid-white-85: rgba(217,217,217,1);
+$color-solid-white-80: rgba(204,204,204,1);
+$color-solid-white-75: rgba(191,191,191,1);
+$color-solid-white-70: rgba(178,178,178,1);
+$color-solid-white-65: rgba(166,166,166,1);
+$color-solid-white-60: rgba(153,153,153,1);
+$color-solid-white-55: rgba(140,140,140,1);
+$color-solid-white-50: rgba(128,128,128,1);
+
+$color-opacity-black-100: rgba(0,0,0,1);
+$color-opacity-black-95: rgba(0,0,0,.95);
+$color-opacity-black-90: rgba(0,0,0,.90);
+$color-opacity-black-85: rgba(0,0,0,.85);
+$color-opacity-black-80: rgba(0,0,0,.80);
+$color-opacity-black-75: rgba(0,0,0,.75);
+$color-opacity-black-70: rgba(0,0,0,.70);
+$color-opacity-black-65: rgba(0,0,0,.65);
+$color-opacity-black-60: rgba(0,0,0,.60);
+$color-opacity-black-55: rgba(0,0,0,.55);
+$color-opacity-black-50: rgba(0,0,0,.50);
+
+$color-opacity-white-100: rgba(255,255,255,1);
+$color-opacity-white-95: rgba(255,255,255,.95);
+$color-opacity-white-90: rgba(255,255,255,.90);
+$color-opacity-white-85: rgba(255,255,255,.85);
+$color-opacity-white-80: rgba(255,255,255,.80);
+$color-opacity-white-75: rgba(255,255,255,.75);
+$color-opacity-white-70: rgba(255,255,255,.70);
+$color-opacity-white-65: rgba(255,255,255,.65);
+$color-opacity-white-60: rgba(255,255,255,.60);
+$color-opacity-white-55: rgba(255,255,255,.55);
+$color-opacity-white-50: rgba(255,255,255,.50);
+
+$color-text-dark-primary: $color-opacity-black-90;
+$color-text-dark-secondary: $color-opacity-black-70;
+$color-text-dark-disabled: $color-opacity-black-50;
+$color-text-dark-highlight: $color-opacity-black-100;
+
+$color-text-light-primary: $color-opacity-white-90;
+$color-text-light-secondary: $color-opacity-white-70;
+$color-text-light-disabled: $color-opacity-white-50;
+$color-text-light-highlight: $color-opacity-white-100;
+
+$color-background-0: $color-solid-black-100;
+$color-background-1: $color-solid-black-90;
+$color-background-2: $color-solid-black-85;

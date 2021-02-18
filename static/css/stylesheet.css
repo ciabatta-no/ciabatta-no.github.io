@@ -1,0 +1,170 @@
+body {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin: 288px 0 0 144px;
+  padding: 36px;
+  overflow: hidden;
+}
+
+ul.taglines {
+  margin: 80px 0 0 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+ul.taglines li {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 8px 12px;
+}
+ul.taglines li.bold {
+  font-weight: 700;
+}
+
+footer {
+  background-color: #262626;
+  overflow: hidden;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 0;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+  margin: 0;
+  padding: 8px 12px;
+  float: left;
+}
+footer .button {
+  float: right;
+}
+
+#logo {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  line-height: 96px;
+  font-weight: 700;
+  margin: 0;
+  padding: 12px;
+  float: left;
+}
+
+.button {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 200;
+  display: inline-block;
+  padding: 8px 12px;
+}
+.button.icon {
+  padding: 8px;
+}
+.button.icon svg {
+  display: block;
+  width: 24px;
+}
+
+.button.primary {
+  background-color: black;
+}
+.button.primary:hover {
+  background-color: #1a1a1a;
+}
+.button.primary:focus {
+  background-color: #1a1a1a;
+  outline-offset: -2px;
+  outline-color: #09f;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+a {
+  color: white;
+  font-weight: 300;
+  text-decoration: underline;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+a:focus {
+  outline-offset: 2px;
+  outline-color: #09f;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  #logo {
+    float: none;
+  }
+
+  ul.taglines {
+    float: none;
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  #logo {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  ul.taglines {
+    margin: 60px 0 0 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #logo {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  ul.taglines {
+    margin: 40px 0 0 0;
+  }
+}
+@media screen and (max-height: 360px) {
+  #logo {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  ul.taglines {
+    margin: 40px 0 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #main {
+    margin: 96px 0 0 48px;
+  }
+}
+@media screen and (max-height: 800px) {
+  #main {
+    margin: 96px 0 0 48px;
+  }
+}
+@media screen and (max-height: 568px) {
+  #main {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #main {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
