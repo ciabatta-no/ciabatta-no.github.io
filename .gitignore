@@ -7,5 +7,5 @@
 ._*
 
 # Python
-.py
-.pyc
+*.py
+*.pyc
