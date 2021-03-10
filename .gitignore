@@ -5,3 +5,7 @@
 
 # Thumbnails
 ._*
+
+# Python
+.py
+.pyc
