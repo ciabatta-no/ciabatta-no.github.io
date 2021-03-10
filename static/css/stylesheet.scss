@@ -11,6 +11,7 @@ body{
   font-weight: 200;
 
   margin: 0;
+  margin-bottom: 128px;
   padding: 0;
 }
 
@@ -37,6 +38,25 @@ ul.taglines{
     &.bold{
       font-weight: 700;
     }
+  }
+}
+
+.opening{
+  .date{
+    display: inline-block;
+    width: 32px;
+  }
+  .day{
+    display: inline-block;
+    width: 128px;
+    margin-right: 8px;
+  }
+  .time{
+    display: inline-block;
+    font-feature-settings: 'tnum';
+    -webkit-font-feature-settings: 'tnum';
+    -moz-font-feature-settings: 'tnum';
+    font-weight: 700;
   }
 }
 
