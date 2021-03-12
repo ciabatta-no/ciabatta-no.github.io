@@ -54,6 +54,24 @@ ul {
 ul li {
   padding: 12px;
 }
+ul li.bold {
+  font-weight: 700;
+}
+ul li.opening span {
+  display: inline-block;
+  margin-right: 8px;
+}
+ul li.opening .date {
+  font-variant-numeric: tabular-nums;
+  width: 32px;
+}
+ul li.opening .day {
+  width: 128px;
+  font-weight: 700;
+}
+ul li.opening .time {
+  font-variant-numeric: tabular-nums;
+}
 
 footer {
   background-color: #262626;

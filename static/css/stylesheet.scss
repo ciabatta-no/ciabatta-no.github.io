@@ -61,6 +61,26 @@ ul{
 
   li{
     padding: 12px;
+    &.bold{
+      font-weight: 700;
+    }
+  }
+  li.opening{
+    span{
+      display: inline-block;
+      margin-right: 8px;
+    }
+    .date{
+      font-variant-numeric: tabular-nums;
+      width: 32px;
+    }
+    .day{
+      width: 128px;
+      font-weight: 700;
+    }
+    .time{
+      font-variant-numeric: tabular-nums;
+    }
   }
 }
 
