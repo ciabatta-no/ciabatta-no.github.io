@@ -146,12 +146,12 @@ footer .button {
 a {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 300;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: white;
   background-color: #262626;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:focus {
   background-color: #262626;
