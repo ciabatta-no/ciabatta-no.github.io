@@ -1,6 +1,10 @@
 //colors
 @import "colors";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: $color-background-1;
   color: $color-text-light-primary;
@@ -21,6 +25,10 @@ body{
 }
 
 #hours{
+  background-color: $color-background-2;
+}
+
+#contact{
   background-color: $color-background-2;
 }
 
