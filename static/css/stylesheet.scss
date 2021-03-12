@@ -20,7 +20,7 @@ body{
   box-sizing: border-box;
 }
 
-#menu{
+#hours{
   background-color: $color-background-2;
 }
 
@@ -58,31 +58,30 @@ ul{
   padding: 0 0 0 320px;
   list-style: none;
 
+  a{}
+
   li{
-    padding: 12px;
     &.bold{
       font-weight: 700;
     }
-    .date{
+    span, a{
+      padding: 12px;
       display: inline-block;
+    }
+    .date{
       width: 32px;
     }
     .day{
-      display: inline-block;
       width: 128px;
       margin-right: 8px;
     }
     .time{
-      display: inline-block;
       font-feature-settings: 'tnum';
       -webkit-font-feature-settings: 'tnum';
       -moz-font-feature-settings: 'tnum';
       font-weight: 700;
     }
   }
-}
-
-.opening{
 }
 
 footer{
@@ -112,11 +111,6 @@ footer{
 // Components
 
 #logo{
-  //font-family: 'Inter', sans-serif;
-  //font-size: 80px;
-  //line-height: 96px;
-  //font-weight: 700;
-
   margin: 0;
   padding: 0 12px;
   width: 320px;
@@ -156,16 +150,18 @@ footer{
 }
 
 a{
-  color: $color-text-light-highlight;
+  color: $color-text-light-primary;
   font-weight: 300;
   text-decoration: underline;
 
   &:hover{
-    color: $color-text-light-primary;
+    color: $color-text-light-highlight;
+    background-color: $color-background-2;
     text-decoration: none;
   }
 
   &:focus{
+    background-color: $color-background-2;
     outline-offset: 2px;
     outline-color: #09f;
     outline-style: solid;

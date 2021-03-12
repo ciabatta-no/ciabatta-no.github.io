@@ -15,7 +15,7 @@ body {
   box-sizing: border-box;
 }
 
-#menu {
+#hours {
   background-color: #262626;
 }
 
@@ -50,23 +50,21 @@ ul {
   padding: 0 0 0 320px;
   list-style: none;
 }
-ul li {
-  padding: 12px;
-}
 ul li.bold {
   font-weight: 700;
 }
-ul li .date {
+ul li span, ul li a {
+  padding: 12px;
   display: inline-block;
+}
+ul li .date {
   width: 32px;
 }
 ul li .day {
-  display: inline-block;
   width: 128px;
   margin-right: 8px;
 }
 ul li .time {
-  display: inline-block;
   font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
@@ -131,15 +129,17 @@ footer .button {
 }
 
 a {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: 300;
   text-decoration: underline;
 }
 a:hover {
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
+  background-color: #262626;
   text-decoration: none;
 }
 a:focus {
+  background-color: #262626;
   outline-offset: 2px;
   outline-color: #09f;
   outline-style: solid;
