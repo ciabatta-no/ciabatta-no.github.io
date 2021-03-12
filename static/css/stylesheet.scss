@@ -12,31 +12,55 @@ body{
 
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 #main{
-  margin: 288px 0 0 144px;
-  padding: 36px;
+  padding-top: 288px;
+  min-height: 80vh;
+  box-sizing: border-box;
+}
+
+#menu{
+  background-color: $color-background-2;
+}
+
+section{
+  margin: 0;
+  padding: 144px;
   overflow: hidden;
+}
+
+// TYPOGRAPHY
+h2{
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 0 0 48px 0;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+h3{
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+  padding: 12px;
+  width: 320px;
+  box-sizing: border-box;
 }
 
 // Patterns
 
-ul.taglines{
-  margin: 96px 0 0 0;
-  padding: 0;
-
+ul{
+  margin: 0 0 96px 0;
+  padding: 0 0 0 320px;
   list-style: none;
-  float: left;
 
   li{
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 8px 12px;
-
-    &.bold{
-      font-weight: 700;
-    }
+    padding: 12px;
   }
 }
 
@@ -55,7 +79,7 @@ footer{
     font-weight: 200;
 
     margin: 0;
-    padding: 8px 12px;
+    padding: 8px 24px;
     float: left;
   }
 
@@ -67,14 +91,15 @@ footer{
 // Components
 
 #logo{
-  font-family: 'Inter', sans-serif;
-  font-size: 80px;
-  line-height: 96px;
-  font-weight: 700;
+  //font-family: 'Inter', sans-serif;
+  //font-size: 80px;
+  //line-height: 96px;
+  //font-weight: 700;
 
   margin: 0;
-  padding: 12px;
-  float: left;
+  padding: 0 12px;
+  width: 320px;
+  height: auto;
 }
 
 .button{
@@ -127,6 +152,52 @@ a{
   }
 }
 
+// Tablet landscape
+@media screen and (max-width: 1024px){
+  h3, #logo{width: 192px;}
+  ul{padding: 0 0 0 192px;}
+}
+
+// Tablet portrait
+@media screen and (max-width: 768px){
+  section{padding: 48px;}
+  #logo{
+    font-size: 60px;
+    line-height: 72px;
+  }
+  //h3, #logo{width: 240px;}
+  //ul{padding: 0 0 0 240px;}
+}
+
+// Phone portrait
+@media screen and (max-width: 560px){
+  h3{
+    width: 100%;
+    text-align: left;
+  }
+  ul{
+    padding: 0;
+    margin: 0 0 48px 0;
+  }
+}
+
+// Phone portrait small
+@media screen and (max-width: 480px){
+  section{padding: 48px 12px;}
+  ul li{padding: 12px;}
+}
+
+// Height
+@media screen and (max-height: 768px){
+  #main{padding-top: 192px;}
+}
+
+@media screen and (max-height: 560px){
+  #main{padding-top: 24px;}
+}
+
+/*
+
 // Start stacking
 @media screen and (max-width: 480px){
   #logo{
@@ -170,12 +241,6 @@ a{
   }
 }
 
-// Tablet spacing
-@media screen and (max-width: 768px){
-  #main{
-    margin: 96px 0 0 48px;
-  }
-}
 
 @media screen and (max-height: 800px){
   #main{
@@ -195,3 +260,4 @@ a{
     margin: 0;
   }
 }
+*/
