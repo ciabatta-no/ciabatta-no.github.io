@@ -167,12 +167,12 @@ footer{
 a{
   color: $color-text-light-primary;
   font-weight: 300;
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover{
     color: $color-text-light-highlight;
     background-color: $color-background-2;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   &:focus{
