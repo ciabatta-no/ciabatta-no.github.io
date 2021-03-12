@@ -55,27 +55,34 @@ h3{
 
 ul{
   margin: 0 0 96px 0;
-  padding: 0 0 0 320px;
+  padding: 0;
+  padding-left: 320px;
   list-style: none;
 
   a{}
 
   li{
-    &.bold{
-      font-weight: 700;
-    }
     span, a{
       padding: 12px;
       display: inline-block;
     }
+    &.bold{
+      font-weight: 700;
+    }
+    &.opening{
+      padding: 12px;
+    }
     .date{
+      padding: 0;
       width: 32px;
     }
     .day{
+      padding: 0;
       width: 128px;
       margin-right: 8px;
     }
     .time{
+      padding: 0;
       font-feature-settings: 'tnum';
       -webkit-font-feature-settings: 'tnum';
       -moz-font-feature-settings: 'tnum';
@@ -172,7 +179,7 @@ a{
 // Tablet landscape
 @media screen and (max-width: 1024px){
   h3, #logo{width: 192px;}
-  ul{padding: 0 0 0 192px;}
+  ul{padding-left: 192px;}
 }
 
 // Tablet portrait
@@ -191,7 +198,7 @@ a{
     text-align: left;
   }
   ul{
-    padding: 0;
+    padding-left: 0;
     margin: 0 0 48px 0;
   }
 }
@@ -199,7 +206,6 @@ a{
 // Phone portrait small
 @media screen and (max-width: 480px){
   section{padding: 48px 12px;}
-  ul li{padding: 12px;}
 }
 
 // Height
