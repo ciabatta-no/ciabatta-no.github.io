@@ -26,7 +26,7 @@ body{
 
 section{
   margin: 0;
-  padding: 144px;
+  padding: 144px 0 144px 144px;
   overflow: hidden;
 }
 
@@ -63,43 +63,26 @@ ul{
     &.bold{
       font-weight: 700;
     }
-  }
-  li.opening{
-    span{
-      display: inline-block;
-      margin-right: 8px;
-    }
     .date{
-      font-variant-numeric: tabular-nums;
+      display: inline-block;
       width: 32px;
     }
     .day{
+      display: inline-block;
       width: 128px;
-      font-weight: 700;
+      margin-right: 8px;
     }
     .time{
-      font-variant-numeric: tabular-nums;
+      display: inline-block;
+      font-feature-settings: 'tnum';
+      -webkit-font-feature-settings: 'tnum';
+      -moz-font-feature-settings: 'tnum';
+      font-weight: 700;
     }
   }
 }
 
 .opening{
-  .date{
-    display: inline-block;
-    width: 32px;
-  }
-  .day{
-    display: inline-block;
-    width: 128px;
-    margin-right: 8px;
-  }
-  .time{
-    display: inline-block;
-    font-feature-settings: 'tnum';
-    -webkit-font-feature-settings: 'tnum';
-    -moz-font-feature-settings: 'tnum';
-    font-weight: 700;
-  }
 }
 
 footer{
@@ -198,17 +181,15 @@ a{
 
 // Tablet portrait
 @media screen and (max-width: 768px){
-  section{padding: 48px;}
+  section{padding: 48px 0 48px 48px;}
   #logo{
     font-size: 60px;
     line-height: 72px;
   }
-  //h3, #logo{width: 240px;}
-  //ul{padding: 0 0 0 240px;}
 }
 
 // Phone portrait
-@media screen and (max-width: 560px){
+@media screen and (max-width: 600px){
   h3{
     width: 100%;
     text-align: left;

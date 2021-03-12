@@ -21,7 +21,7 @@ body {
 
 section {
   margin: 0;
-  padding: 144px;
+  padding: 144px 0 144px 144px;
   overflow: hidden;
 }
 
@@ -56,32 +56,16 @@ ul li {
 ul li.bold {
   font-weight: 700;
 }
-ul li.opening span {
-  display: inline-block;
-  margin-right: 8px;
-}
-ul li.opening .date {
-  font-variant-numeric: tabular-nums;
-  width: 32px;
-}
-ul li.opening .day {
-  width: 128px;
-  font-weight: 700;
-}
-ul li.opening .time {
-  font-variant-numeric: tabular-nums;
-}
-
-.opening .date {
+ul li .date {
   display: inline-block;
   width: 32px;
 }
-.opening .day {
+ul li .day {
   display: inline-block;
   width: 128px;
   margin-right: 8px;
 }
-.opening .time {
+ul li .time {
   display: inline-block;
   font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
@@ -173,7 +157,7 @@ a:focus {
 }
 @media screen and (max-width: 768px) {
   section {
-    padding: 48px;
+    padding: 48px 0 48px 48px;
   }
 
   #logo {
@@ -181,7 +165,7 @@ a:focus {
     line-height: 72px;
   }
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
   h3 {
     width: 100%;
     text-align: left;
