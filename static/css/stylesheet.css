@@ -145,13 +145,11 @@ footer .button {
 
 a {
   color: rgba(255, 255, 255, 0.9);
-  font-weight: 300;
-  text-decoration: none;
 }
 a:hover {
   color: white;
   background-color: #262626;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   background-color: #262626;
@@ -159,6 +157,10 @@ a:focus {
   outline-color: #09f;
   outline-style: solid;
   outline-width: 2px;
+}
+
+b {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1024px) {
