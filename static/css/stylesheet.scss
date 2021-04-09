@@ -166,13 +166,11 @@ footer{
 
 a{
   color: $color-text-light-primary;
-  font-weight: 300;
-  text-decoration: none;
 
   &:hover{
     color: $color-text-light-highlight;
     background-color: $color-background-2;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   &:focus{
@@ -182,6 +180,10 @@ a{
     outline-style: solid;
     outline-width: 2px;
   }
+}
+
+b{
+  font-weight: 400;
 }
 
 // Tablet landscape
