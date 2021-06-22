@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
 }
 
-#hours {
+#hours, #locations {
   background-color: #262626;
 }
 
@@ -60,6 +60,7 @@ ul {
   list-style: none;
 }
 ul li span, ul li a {
+  margin: 0;
   padding: 12px;
   display: inline-block;
 }
